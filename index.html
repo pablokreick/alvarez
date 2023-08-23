@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creada a comienzos de 2016 y con base en Buenos Aires, Lower fue ideada por Sebastián Alvarez. Su interés por la fotografía y los autos lo llevó a iniciar este sitio web para compartir sus trabajos. Lower representa una cultura, un concepto estético y un enfoque profesional.">
+    <meta name="keywords" content="autos, tuning, fotografía, evento, vehículos, carrera">
+    <title>Lower®</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66b8328487.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/favicon.ico">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--css main-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<!--header-->
+    <header> 
+        <div class="header">
+            <div class="logo">
+                <a href="#home"><img class="logo-lower" src="./img/Logo Lower BLACK.png" alt="Logo-Lower"></a>
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                <ul class="menu">
+                    <li class="nav-li"><a href="#about" class="active"><b>ABOUT</b></a></li>
+                    <li class="nav-li"><a href="#works"><b>WORKS</b></a></li>
+                    <li class="nav-li"><a href="#events"><b>EVENTS</b></a></li>
+                    <li class="nav-li"><a href="#shop"><b>THE SHOP</b></a></li>
+                    <li class="nav-li"><a href="#contact"><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!--main-->        
+    <main>
+        <section id="home">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./img/scirocco.jpg" class="carousel-block carousel-img" alt="scirocco">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/brakes.jpg" class="carousel-block carousel-img" alt="brakes">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/919.jpg" class="carousel-block carousel-img" alt="porsche">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/vento.jpg" class="carousel-block carousel-img" alt="vento">
+                    </div>
+                </div>
+                <div>
+                    <img class="lower-portada" src="./img/LowerLogo.png" alt="logo-main">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>                   
+        <section id="about"> 
+            <div class="about-main">
+                <img class="bmw-portada" src="./img/About_portada.jpg" alt="bmw-portada">
+                <h2 class="about"><b>ABOUT</b></h2>
+                <p class="descripción">Creada a comienzos de 2016 y con base en Buenos Aires, <b>Lower</b> fue ideada por Sebastián Alvarez. <br>Su interés por la fotografía y los autos lo llevó a iniciar este sitio web para compartir sus trabajos. <br>Lower representa una cultura, un concepto estético y un enfoque profesional.</p>
+            </div>
+        </section>
+        <hr>          
+        <section id="works">
+            <div class="works-main">
+                <h2><b>WORKS</b></h2>
+            </div> 
+            <div class="section-cards"> 
+                <article class="card-container">
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaScirocco.jpg" alt="portada-scirocco">
+                        <a class="a-btn" href="./pages/fotosScirocco.html"><button class="view-gallery">VIEW GALLERY</button></a>   
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">VOLKSWAGEN SCIROCCO</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div> 
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/Portada208.jpg" alt="portada-208">   
+                        <a class="a-btn" href="./pages/fotos208.html"><button class="view-gallery">VIEW GALLERY</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">PEUGEOT 208</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaMK1.jpg" alt="portada-mk1">    
+                        <a class="a-btn" href="./pages/fotosGolf.html"><button class="view-gallery">VIEW GALLERY</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">VOLKSWAGEN GOLF</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>
+                    <div class="card-photo"> 
+                        <img class="portadas" src="./img/Portada307.jpg" alt="portada-307"> 
+                        <a class="a-btn" href="./pages/fotos307.html"><button class="view-gallery">VIEW GALLERY</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">PEUGEOT 307</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>   
+                </article>    
+            </div>  
+        </section>
+        <hr>
+        <section id="events">
+            <div class="events-main">
+                <h2><b>EVENTS</b></h2>
+            </div>
+            <div class="section-cards">
+                <article class="card-container">           
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaAC16.jpg" alt="portada2016">
+                        <a class="a-btn" href="./pages/autoclasica2016Info.html"><button class="more-info">MORE INFORMATION</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">AUTOCLÁSICA 2016</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>                            
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaAC17.jpg" alt="portada2017">    
+                        <a class="a-btn" href="./pages/autoclasica2017Info.html"><button class="more-info">MORE INFORMATION</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">AUTOCLÁSICA 2017</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaAC18.jpg" alt="portada2018">    
+                        <a class="a-btn" href="./pages/autoclasica2018Info.html"><button class="more-info">MORE INFORMATION</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">AUTOCLÁSICA 2018</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaSRS.jpg" alt="portadaSRS">    
+                        <a class="a-btn" href="./pages/streetracingInfo.html"><button class="more-info">MORE INFORMATION</button></a>
+                        <p class="card-nameplace">BUENOS AIRES</p>
+                        <p class="card-name">STREETRACING SRS</p>
+                        <p class="card-nameby">BY SEBASTIÁN ALVAREZ</p>
+                    </div>
+                </article>    
+            </div>
+        </section>
+        <hr> 
+        <section id="shop">
+            <div class="events-main">
+                <h2><b>THE SHOP</b></h2>
+            </div>
+            <div class="section-cards">
+                <article class="card-container">           
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaClothes.jpg" alt="clothes">
+                        <a class="a-btn" href="./pages/clothing.html"><button class="more-info">SHOP NOW!</button></a>
+                        <p class="card-nameplace">LWR DRIVERS CLUB</p>
+                        <p class="card-name">CLOTHING</p>
+                        <p class="card-nameby">SHOP CLOTHING</p>
+                    </div>                            
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaGood.jpg" alt="goods">    
+                        <a class="a-btn" href="./pages/goods.html"><button class="more-info">SHOP NOW!</button></a>
+                        <p class="card-nameplace">LWR DRIVERS CLUB</p>
+                        <p class="card-name">GOODS</p>
+                        <p class="card-nameby">SHOP GOODS</p>
+                    </div>
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaAccessories.jpg" alt="accessories">    
+                        <a class="a-btn" href="./pages/accessories.html"><button class="more-info">SHOP NOW!</button></a>
+                        <p class="card-nameplace">LWR DRIVERS CLUB</p>
+                        <p class="card-name">ACCESSORIES</p>
+                        <p class="card-nameby">SHOP ACCESSORIES</p>
+                    </div>
+                    <div class="card-photo">
+                        <img class="portadas" src="./img/PortadaNewArrivals.jpg" alt="newarrivals">    
+                        <a class="a-btn" href="./pages/newArrivals.html"><button class="more-info">SHOP NOW!</button></a>
+                        <p class="card-nameplace">LWR DRIVERS CLUB</p>
+                        <p class="card-name">NEW ARRIVALS</p>
+                        <p class="card-nameby">SHOP NEW ARRIVALS</p>
+                    </div>
+                </article>    
+            </div>
+        </section>
+        <hr>   
+        <section id="contact">
+            <div class="container-main">
+                <div class="contact-main">
+                    <div class="col-main">
+                        <h3><b>info@lower.com.ar</b></h3> 
+                        <p class="lower-registered">Lower® 2023</p>
+                        <p class="bsas">Buenos Aires, Argentina</p>
+                        <a class="boton-contacto" href="./pages/formulario.html"><button class="contacto">CONTACTO</button></a>
+                    </div>  
+                    <div class="col-photo">
+                        <img class="r5" src="./img/ContactoR5.jpg" alt="portada-contacto">
+                    </div>
+                </div>
+            </div>                         
+        </section>
+    </main>
+    <hr>               
+<!--footer-->    
+    <footer>
+        <div class="email-address">
+            <a href="#home"><img class="footer-logolower" src="./img/LogoLower484848.png" alt="Logo-Lower"></a>
+            <input class="signup-mail" type="text" name="email" id="email" placeholder="EMAIL ADDRESS"></input>
+            <input class="btn-signup" type="submit" value="SIGN UP"></input>
+            <h4><b>FOLLOW US</b></h4>
+            <nav>      
+                <ul class="li-redes">
+                    <li><a href="https://instagram.com/lowerarg/" target="blank"><img class="ig" src="./img/Logo IG.png" alt="ig"></a></li>
+                    <li><a href="https://facebook.com/LowerArg/" target="blank"><img class="fb" src="./img/Logo Facebook.png" alt="fb"></a></li>
+                    <li><a href="https://twitter.com/lowerarg/" target="blank"><img class="tw" src="./img/Logo Twitter.png" alt="tw"></a></li>
+                </ul>
+            </nav>  
+        </div>
+        <hr>
+        <div>
+            <ul class="menu-footer">
+                <li class="nav-li"><a href="#about" class="active"><b>ABOUT</b></a></li>
+                <li class="nav-li"><a href="#works"><b>WORKS</b></a></li>
+                <li class="nav-li"><a href="#events"><b>EVENTS</b></a></li>
+                <li class="nav-li"><a href="#shop"><b>THE SHOP</b></a></li>
+                <li class="nav-li"><a href="#contact"><b>CONTACT</b></a></li>
+            </ul>
+        </div> 
+        <hr>
+        <div>       
+            <p class="copyright-footer"><b>LOWER® </b>ALL RIGHTS RESERVED. MADE BY LWR STUDIOS.</p>
+        </div>   
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>         
+<script src="./js/app.js"></script>
+</body>
+</html>             
